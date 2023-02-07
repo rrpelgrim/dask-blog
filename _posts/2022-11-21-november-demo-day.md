@@ -54,7 +54,7 @@ Watch the [full demo](https://youtu.be/_x7oaSEJDjA?t=1300).
 
 ## Dask for Awkward Arrays
 
-The PyData ecosystem has historically focused on rectilinear data structures like DataFrames and regular arrays. [Awkward Arrays](https://awkward-array.readthedocs.io/en/stable/) brings NumPy-like operations to non-rectilinear data structures and [dask-awkward](https://github.com/ContinuumIO/dask-awkward) enables you to work with awkward arrays on a distributed cluster in parallel. [Doug Davis](https://ddavis.io/about/ (Anaconda) walks you through a quick demo of how to use `dask-awkward` on a local cluster. This is a helpful tool if you find yourself working with nested data structures at scale.
+The PyData ecosystem has historically focused on rectilinear data structures like DataFrames and regular arrays. [Awkward Arrays](https://awkward-array.readthedocs.io/en/stable/) brings NumPy-like operations to non-rectilinear data structures and [dask-awkward](https://github.com/ContinuumIO/dask-awkward) enables you to work with awkward arrays on a distributed cluster in parallel. [Doug Davis](https://ddavis.io/about/) (Anaconda) walks you through a quick demo of how to use `dask-awkward` on a local cluster. This is a helpful tool if you find yourself working with nested data structures at scale.
 
 <img alt="Screenshot of dask-awkward" src="/images/2022-11-demo-day/awkward.gif" style="max-width: 100%;" width="100%" />
 
