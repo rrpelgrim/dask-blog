@@ -56,7 +56,7 @@ Watch the [full demo](https://youtu.be/_x7oaSEJDjA?t=1300).
 
 The PyData ecosystem has historically focused on rectilinear data structures like DataFrames and regular arrays. [Awkward Arrays](https://awkward-array.readthedocs.io/en/stable/) brings NumPy-like operations to non-rectilinear data structures and [dask-awkward](https://github.com/ContinuumIO/dask-awkward) enables you to work with awkward arrays on a distributed cluster in parallel. [Doug Davis](https://ddavis.io/about/) (Anaconda) walks you through a quick demo of how to use `dask-awkward` on a local cluster. This is a helpful tool if you find yourself working with nested data structures at scale.
 
-<img alt="Screenshot of dask-awkward" src="/images/2022-11-demo-day/awkward.gif" style="max-width: 100%;" width="100%" />
+<img alt="Screenshot of dask-awkward" src="/images/2022-11-demo-day/awkward.png" style="max-width: 100%;" width="100%" />
 
 Watch the [full demo](https://youtu.be/_x7oaSEJDjA?t=2033).
 
@@ -64,7 +64,7 @@ Watch the [full demo](https://youtu.be/_x7oaSEJDjA?t=2033).
 
 [py-spy](https://github.com/benfred/py-spy) is a Python profiler that lets you dig deeper into your code than just your Python functions. [Gabe Joseph](https://github.com/gjoseph92) (Coiled) shows you how you can use [dask-pyspy](https://github.com/gjoseph92/dask-pyspy) to profile code on a Dask cluster. By digging down into compiled code, dask-pyspy is able to discover valuable insights about why your Dask code might be running slow and what you might be able to do to resolve this.
 
-<img alt="Screenshot of dask-pyspy in action" src="/images/2022-11-demo-day/pyspy.gif" style="max-width: 100%;" width="100%" />
+<img alt="Screenshot of dask-pyspy in action" src="/images/2022-11-demo-day/pyspy.png" style="max-width: 100%;" width="100%" />
 
 Watch the [full demo](https://youtu.be/_x7oaSEJDjA?t=2758).
 
