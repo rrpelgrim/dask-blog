@@ -48,7 +48,7 @@ Watch the [full demo](https://youtu.be/_x7oaSEJDjA?t=882) or read the [Dask CLI 
 
 ## XGBoost HPO with Dask and Optuna
 
-Have you ever wanted to speed up your hyperparameter searches by running them in parallel? James Bourbeau (Coiled) shows you how you can use the brand-new `dask-optuna` integration to run hundreds of hyperparameter searches in parallel on a Dask cluster. Running your Optuna HPO searches on a Dask cluster requires only two changes to your existing optuna code. After making those changes, we’re then able to run 500 HPO iterations in parallel in 25 seconds.
+Have you ever wanted to speed up your hyperparameter searches by running them in parallel? [James Bourbeau](https://www.jamesbourbeau.com/about/) (Coiled) shows you how you can use the brand-new [`dask-optuna`](https://jrbourbeau.github.io/dask-optuna/) integration to run hundreds of hyperparameter searches in parallel on a Dask cluster. Running your Optuna HPO searches on a Dask cluster requires only two changes to your existing optuna code. After making those changes, we’re then able to run 500 HPO iterations in parallel in 25 seconds.
 
 <img alt="Screenshot of Dask-Optuna running" src="/images/2022-11-demo-day/optuna-dask.png" style="max-width: 100%;" width="100%" />
 
