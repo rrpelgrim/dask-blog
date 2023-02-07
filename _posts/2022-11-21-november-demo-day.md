@@ -2,10 +2,8 @@
 layout: post
 title: Dask Demo Day November 2022
 author: Richard Pelgrim (Coiled)
-tagline: an optional tagline
 tags: [Community]
 theme: twitter
-draft: true
 ---
 
 {% include JB/setup %}
