@@ -18,7 +18,7 @@ November’s Dask Demo Day had 5 great demos. We learned about:
 - Dask-Awkward
 - profiling your Dask code with Dask-PySpy
 
-This blog gives you a quick overview of the 5 demos and demonstrates how they might be useful to you. You can watch the full recording below.
+This blog gives you a quick overview of the five demos and demonstrates how they might be useful to you. You can watch the full recording below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_x7oaSEJDjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
