@@ -12,11 +12,11 @@ Once a month, the Dask Community team hosts Dask Demo Day: an informal and fun o
 
 November’s Dask Demo Day had 5 great demos. We learned about:
 
-- the Dask-Optuna integration for distributed hyperparameter optimization
-- visualizing 2-billion lightning flashes with Dask, RAPIDS and Datashader
-- the new Dask CLI
-- Dask-Awkward
-- profiling your Dask code with Dask-PySpy
+- [Visualizing 2-billion lightning flashes with Dask, RAPIDS and Datashader](#visualization-at-lightning-speed)
+- [The new Dask CLI](#the-new-dask-cli)
+- [The Dask-Optuna integration for distributed hyperparameter optimization](#xgboost-hpo-with-dask-and-optuna)
+- [Dask-Awkward](#dask-for-awkward-arrays)
+- [Profiling your Dask code with Dask-PySpy](#profiling-dask-on-a-cluster-with-py-spy)
 
 This blog gives you a quick overview of the five demos and demonstrates how they might be useful to you. You can [watch the full recording below](https://www.youtube.com/embed/_x7oaSEJDjA).
 
@@ -24,7 +24,7 @@ This blog gives you a quick overview of the five demos and demonstrates how they
 
 ## Visualization at Lightning Speed
 
-Would it be possible to interactively visualize all the lightning strikes in his dataset, Kevin Tyle (University of Albany) recently asked himself. In this demo, Kevin shows you how he leveraged CUDA, RAPIDS-AI, Dask and Datashader to build a smooth interactive visualization of 8 years’ worth of lightning strikes. That’s over 2 billion rows of data.
+Would it be possible to interactively visualize all the lightning strikes in his dataset, [Kevin Tyle](https://www.albany.edu/daes/faculty/kevin-tyle) (University of Albany) recently asked himself. In this demo, Kevin shows you how he leveraged [CUDA](https://developer.nvidia.com/cuda-zone), [RAPIDS-AI](https://rapids.ai/), [Dask](https://www.dask.org/) and [Datashader](https://datashader.org/) to build a smooth interactive visualization of 8 years’ worth of lightning strikes. That’s over 2 billion rows of data.
 
 Kevin shows you how to finetune performance of such a large-scale data processing workflow by:
 
@@ -54,7 +54,7 @@ Watch the [full demo](https://youtu.be/_x7oaSEJDjA?t=1300).
 
 ## Dask for Awkward Arrays
 
-The PyData ecosystem has historically focused on rectilinear data structures like DataFrames and regular arrays. [Awkward Arrays](https://awkward-array.readthedocs.io/en/stable/) brings NumPy-like operations to non-rectilinear data structures and [dask-awkward](https://github.com/ContinuumIO/dask-awkward) enables you to work with awkward arrays on a distributed cluster in parallel. Doug Davis (Anaconda) walks you through a quick demo of how to use `dask-awkward` on a local cluster. This is a helpful tool if you find yourself working with nested data structures at scale.
+The PyData ecosystem has historically focused on rectilinear data structures like DataFrames and regular arrays. [Awkward Arrays](https://awkward-array.readthedocs.io/en/stable/) brings NumPy-like operations to non-rectilinear data structures and [dask-awkward](https://github.com/ContinuumIO/dask-awkward) enables you to work with awkward arrays on a distributed cluster in parallel. [Doug Davis](https://ddavis.io/about/ (Anaconda) walks you through a quick demo of how to use `dask-awkward` on a local cluster. This is a helpful tool if you find yourself working with nested data structures at scale.
 
 <img alt="Screenshot of dask-awkward" src="/images/2022-11-demo-day/awkward.gif" style="max-width: 100%;" width="100%" />
 
@@ -62,7 +62,7 @@ Watch the [full demo](https://youtu.be/_x7oaSEJDjA?t=2033).
 
 ## Profiling Dask on a Cluster with py-spy
 
-[py-spy](https://github.com/benfred/py-spy) is a Python profiler that lets you dig deeper into your code than just your Python functions. Gabe Joseph shows you how you can use [dask-pyspy](https://github.com/gjoseph92/dask-pyspy) to profile code on a Dask cluster. By digging down into compiled code, dask-pyspy is able to discover valuable insights about why your Dask code might be running slow and what you might be able to do to resolve this.
+[py-spy](https://github.com/benfred/py-spy) is a Python profiler that lets you dig deeper into your code than just your Python functions. [Gabe Joseph](https://github.com/gjoseph92) (Coiled) shows you how you can use [dask-pyspy](https://github.com/gjoseph92/dask-pyspy) to profile code on a Dask cluster. By digging down into compiled code, dask-pyspy is able to discover valuable insights about why your Dask code might be running slow and what you might be able to do to resolve this.
 
 <img alt="Screenshot of dask-pyspy in action" src="/images/2022-11-demo-day/pyspy.gif" style="max-width: 100%;" width="100%" />
 
