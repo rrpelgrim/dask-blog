@@ -10,16 +10,15 @@ draft: true
 
 {% include JB/setup %}
 
-# Dask Demo Day : November
-
 Once a month, the Dask Community team hosts Dask Demo Day: an informal and fun online hangout where folks can showcase new or lesser-known Dask features…and the rest of us can learn about all the things we didn’t know Dask could do 😁
 
 November’s Dask Demo Day had 5 great demo's. We learned about:
+
 - the Dask-Optuna integration for distributed hyperparameter optimization
 - visualizing 2-billion lightning flashes with Dask, RAPIDS and Datashader
 - the new Dask CLI
 - Dask-Awkward
-- profiling your Dask code with Dask-PySpy 
+- profiling your Dask code with Dask-PySpy
 
 This blog gives you a quick overview of the 5 demos and demonstrates how they might be useful to you. You can watch the full recording below.
 
@@ -30,8 +29,9 @@ This blog gives you a quick overview of the 5 demos and demonstrates how they mi
 Would it be possible to interactively visualize all the lightning strikes in his dataset, Kevin Tyle (University of Albany) recently asked himself. In this demo, Kevin shows you how he leveraged CUDA, RAPIDS-AI, Dask and Datashader to build a smooth interactive visualization of 8 years’ worth of lightning strikes. That’s over 2 billion rows of data.
 
 Kevin shows you how to finetune performance of such a large-scale data processing workflow by:
+
 - Leveraging GPUs
-- Using a Dask cluster to maximize hardware usage 
+- Using a Dask cluster to maximize hardware usage
 - Making smart choices about file types
 
 <img alt="Heatmap of lightning strikes in the US" src="/images/2022-11-demo-day/lightning.png" style="max-width: 100%;" width="100%" />
@@ -77,6 +77,7 @@ Dask Demo Day is a great opportunity to learn about the latest developments and 
 Curious how you can stay connected and find out about the latest Dask news and events?
 
 You can:
-- follow us on Twitter [@dask_dev](https://twitter.com/dask_dev) 
+
+- follow us on Twitter [@dask_dev](https://twitter.com/dask_dev)
 - subscribe to the Dask newsletter by sending a blank email to newsletter+subscribe@dask.org
 - subscribe to the [Dask community calendar](https://docs.dask.org/en/latest/support.html)
