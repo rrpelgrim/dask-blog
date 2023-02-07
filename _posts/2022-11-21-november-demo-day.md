@@ -40,7 +40,7 @@ Watch the [full demo](https://youtu.be/_x7oaSEJDjA?t=167) or read more about [hi
 
 ## The New Dask CLI
 
-During the Dask Sprint at SciPy this year, a group of Dask maintainers began work on an upgraded, high-level Dask CLI. Doug Davis (Anaconda) walks us through how the CLI works and all the things you can do with it. After installing dask, you can access the CLI by typing dask into your terminal. The tool is designed to be easily extensible by anyone working on Dask. Doug shows you how to add your own components to the Dask CLI.
+During the Dask Sprint at [SciPy](https://conference.scipy.org/) this year, a group of Dask maintainers began work on an upgraded, high-level [Dask CLI](https://docs.dask.org/en/stable/cli.html). [Doug Davis](https://ddavis.io/about/) (Anaconda) walks us through how the CLI works and all the things you can do with it. After installing dask, you can access the CLI by typing dask into your terminal. The tool is designed to be easily extensible by anyone working on Dask. Doug shows you how to add your own components to the Dask CLI.
 
 <img alt="Screenshot of the new Dask CLI in action" src="/images/2022-11-demo-day/dask-cli.png" style="max-width: 100%;" width="100%" />
 
